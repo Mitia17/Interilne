@@ -1,140 +1,168 @@
-.canvas {
-    width: 420px;
-    height: 280px;
-    background-image: url(./g1.jpg);
-    margin-top: 100px;
-    margin-left: 150px;
-    position: relative;
+@font-face {
+    font-family: "Podliva";
+    src: url(./Kaushan_Script/KaushanScript-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+.intro {
+    display: flex;
+    margin-left: 700px;
+    margin-top: -580px;
+    justify-content: space-evenly;
+    text-align: center;
+    color: rgb(19, 18, 18);
+}
+.girls {
+    width: 1475px;
+    height: 600px;
+    background-image: url(./Zermatt+Banner\(1\).jpg);
 }
 
-.lf {
-    margin-left: 150px;
-    max-width: 50px;
+.mtext {
+    margin-top: 200px;
+    margin-left: 450px;
+    font-size: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0c0b0b;
+    display: flex;
+    font-family: "Podliva";
+}
+.work {
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
 
-.More {
-    margin-left: 150px;
+.w3 {
+    font-family: "Podliva";
+    font-weight: 400;
 }
 
-.First {
-    margin-left: 150px;
-    max-width: 400px;
-}
-
-.cofee {
-    margin-left: 600px;
-    width: 420px;
-    height: 280px;
-    background-image: url(./g2.jpg);
-    position: relative;
-}
-
-.load {
-    width: 190px;
-    height: 100px;
-    background-image: url(./loadmore2.png);
-    margin-left: 600px;
+.AZ::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 60px;
+    height: 3px;
+    background-color: red;
+    margin-left: 90px;
     margin-top: 50px;
 }
 
-.cofan {
-    margin-top: -110px;
-    margin-right: 645px;
-    float: right;
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.lcof {
-    width: 385px;
-    height: 70px;
-    float: right;
-    margin-right: 330px;
-    margin-top: -60px;
+.card1 {
+    width: 350px;
+    height: 140px;
+    /* background-image: url(./babochka.jpg); */
 }
 
-.Second {
-    max-width: 400px;
-    float: right;
-    margin-top: -150px; 
-    margin-right: 355px;
-}
-.twolads {
-    width: 420px;
-    height: 315px;
-    background-image: url(./g3.jpg);
-    margin-top: 100px;
-    margin-left: 150px;
-    position: relative;
-}
-.photodiaryy {
-margin-left: 150px;
-}
-.AMdre {
-    margin-left: 150px;
-}
-.onemore {
-    max-width: 400px;
-    margin-left: 150px;
-}
-.alah {
-    width: 420px;
-    height: 280px;
-    background-image: url(./g4.jpg);
-    position: relative;
-    margin-left: 595px;
-}
-.phtd {
-    float: right;
-    margin-right: 630px;
-    margin-top: -105px;
-}
-.Alps {
-    float: right;
-    margin-top: -65px;
-    margin-right: 390px;
-}
-.twomore {
-    max-width: 400px;
-    float: right;
-    margin-top: -150px;
-    margin-right: 360px;
-}
-.girlinhat {
-    width: 420px;
-    height: 280px;
-    background-image: url(./g5.jpg);
-    margin-left: 150px;
-    margin-top: 100px;
+
+
+.card2 {
+    width: 350px;
+    height: 140px;
+    margin-left: 20px;
+    /* background-image: url(./web-design.png); */
 }
 
-.lf2 {
-    margin-left: 150px;
+.card3 {
+    width: 359px;
+    height: 136px;
+    /* background-image: url(./creativity.png); */
 }
-.songs {
-margin-left: 150px;
+
+.card4 {
+    width: 350px;
+    height: 140px;
+    margin-top: 50px;
+    /* background-image: url(./SEo.png); */
 }
-.threemore {
-    max-width: 400px;
-    margin-left: 150px;
+
+.card5 {
+    width: 350px;
+    height: 140px;
+    margin-top: 50px;
+    /* background-image: url(./cssHtml.png); */
 }
-.snowroad {
-    width: 422px;
-    height: 284px;
-    background-image: url(./SnowRoad.png);
-    margin-left: 590px;
+
+.card6 {
+    width: 372px;
+    height: 136px;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* background-image: url(./Digital.png); */
 }
-.lf23 {
-    float: right;
-    margin-top: -100px;
-    margin-right: 660px;
+
+.headsquad {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
-.cold {
-    float: right;
-    margin-right: 500px;
-    margin-top: -60px;
+
+.wwa {
+    font-family: "Podliva";
+    font-weight: 400;
 }
-.fourmore {
-    max-width: 400px;
-    float: right;
-    margin-top: -150px;
-    margin-right: 360px;
+
+.MOT::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 60px;
+    height: 3px;
+    margin-left: 90px;
+    margin-top: 40px;
+    background-color: red;
+}
+.bord1 {
+    width: 1475px;
+    height: 844px;
+}
+.bord2 {
+    width: 1475px;
+    height: 844px;
+}
+.bord3 {
+    width: 1475px;
+    height: 844px;
+}
+.bord4 {
+    width: 1475px;
+    height: 844px;
+}
+.bord6 {
+    width: 1475px;
+    height: 844px;
+}
+.bord7 {
+    width: 1475px;
+    height: 844px;
+}
+.bord8 {
+    width: 1475px;
+    height: 844px;
+}
+.bord9 {
+    width: 1475px;
+    height: 844px;
+}
+.bord10 {
+    width: 1475px;
+    height: 844px;
+}
+.bord11 {
+    width: 1475px;
+    height: 844px;
+}
+
+.Contacts {
+    margin-left: 75%;
 }
